@@ -19,5 +19,5 @@ func (calculator *calculator) ChangeAlg(alg IAlg) {
 }
 
 func (calculator calculator) Cal() {
-	calculator.alg.Used()
+	calculator.alg.used()
 }

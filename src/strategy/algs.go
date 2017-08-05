@@ -4,7 +4,7 @@ import "fmt"
 
 // 算法接口 有 "被使用" 方法
 type IAlg interface {
-	Used()
+	used()
 }
 
 /*****************
@@ -20,7 +20,7 @@ func NewBinarySearch() binarySearch {
 	return binary_search
 }
 
-func (alg binarySearch) Used() {
+func (alg binarySearch) used() {
 	fmt.Println("I am using util " + alg.name)
 }
 
@@ -37,6 +37,6 @@ func NewQuickSort() quickSort {
 	return quick_sort
 }
 
-func (alg quickSort) Used() {
+func (alg quickSort) used() {
 	fmt.Println("I am using util " + alg.name)
 }
