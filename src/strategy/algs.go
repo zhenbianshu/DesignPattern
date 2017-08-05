@@ -10,33 +10,33 @@ type IAlg interface {
 /*****************
 	算法 二分查询
  *****************/
-type BinarySearch struct {
+type binarySearch struct {
 	name string
 }
 
-func NewBinarySearch() BinarySearch {
-	binary_search := BinarySearch{"binary search"}
+func NewBinarySearch() binarySearch {
+	binary_search := binarySearch{"binary search"}
 
 	return binary_search
 }
 
-func (alg BinarySearch) Used() {
+func (alg binarySearch) Used() {
 	fmt.Println("I am using util " + alg.name)
 }
 
 /*****************
 	算法 快速排序法
  *****************/
-type QuickSort struct {
+type quickSort struct {
 	name string
 }
 
-func NewQuickSort() QuickSort {
-	quick_sort := QuickSort{"quick sort"}
+func NewQuickSort() quickSort {
+	quick_sort := quickSort{"quick sort"}
 
 	return quick_sort
 }
 
-func (alg QuickSort) Used() {
+func (alg quickSort) Used() {
 	fmt.Println("I am using util " + alg.name)
 }
