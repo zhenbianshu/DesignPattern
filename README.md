@@ -5,3 +5,4 @@
 - observer 观察者模式
 - decorator 装饰者模式
 - factory 工厂模式
+- singleton 单例模式
