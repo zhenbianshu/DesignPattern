@@ -6,3 +6,8 @@
 - decorator 装饰者模式
 - factory 工厂模式
 - singleton 单例模式
+- command 命令模式
+- adapter 适配器模式
+- facade 外观模式
+- template 模板模式
+- iterator 迭代器模式
