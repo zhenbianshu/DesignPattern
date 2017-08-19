@@ -8,19 +8,19 @@ type IAlg interface {
 }
 
 /*****************
-	算法 二分查询
+	算法 冒泡
  *****************/
-type binarySearch struct {
+type BubbleSort struct {
 	name string
 }
 
-func NewBinarySearch() binarySearch {
-	binary_search := binarySearch{"binary search"}
+func NewBubbleSearch() BubbleSort {
+	binary_search := BubbleSort{"bubble sort"}
 
 	return binary_search
 }
 
-func (alg binarySearch) used() {
+func (alg BubbleSort) used() {
 	fmt.Println("I am using util " + alg.name)
 }
 

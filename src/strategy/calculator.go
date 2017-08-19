@@ -7,7 +7,7 @@ type calculator struct {
 
 // 计算器构造方法，默认使用二分法计算
 func NewCalculator() calculator {
-	alg := NewBinarySearch()
+	alg := NewBubbleSearch()
 	calculator := calculator{alg}
 
 	return calculator
