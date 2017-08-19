@@ -11,3 +11,6 @@
 - facade 外观模式
 - template 模板模式
 - iterator 迭代器模式
+- composite 组合模式
+- state 状态模式
+- proxy 代理模式
