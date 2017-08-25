@@ -15,7 +15,7 @@
 - state 状态模式
 - proxy 代理模式
 - bridge 桥接模式
-- builder 生成器模式
+- builder 建造者模式
 - chain_of_responsibility 责任链模式
 - flyweight 蝇量模式
 - interpreter 解释器模式
