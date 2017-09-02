@@ -1,5 +1,9 @@
 package interpreter
 
+import (
+	"strings"
+)
+
 type expression interface {
 	Interpret(*context) string
 }
@@ -27,5 +31,17 @@ func NewVariable(val string) *variable {
 }
 
 func (variable variable) Interpret(context *context) string {
-	return context.args["$"+variable.val].Interpret(context)
+	//index := strings.Index(variable.val, "$")
+
+	var index int
+	for {
+		index = strings.Index(variable.val, "$")
+		if index < 0 {
+			break
+		}
+
+		variable.val = string([]rune(variable.val)[1:])
+	}
+
+	return context.args[variable.val].Interpret(context)
 }
