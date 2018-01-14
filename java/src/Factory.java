@@ -1,5 +1,3 @@
-package pattern;
-
 import pattern.factory.*;
 
 public class Factory {

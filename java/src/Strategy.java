@@ -1,5 +1,3 @@
-package pattern;
-
 import pattern.strategy.*;
 
 public class Strategy {

@@ -1,5 +1,3 @@
-package pattern;
-
 import pattern.observer.*;
 
 public class Observer {
